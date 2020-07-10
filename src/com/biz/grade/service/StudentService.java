@@ -17,6 +17,9 @@ public interface StudentService {
 	public void saveStudent();
 	public void studentList();
 	
+	public StudentVO getStudent(String st_num);
+	
+	// List<StudentVO> 타입으로 설정된 변수를 return하겠다.
 	public List<StudentVO> getStudentList();
 
 }

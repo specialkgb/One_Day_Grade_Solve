@@ -7,6 +7,7 @@ public class StudentVO {
 	private String dept;
 	private int grade;
 	private String tel;
+	
 	public String getNum() {
 		return num;
 	}

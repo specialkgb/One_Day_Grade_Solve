@@ -10,6 +10,7 @@ public class ScoreVO {
 	
 	private int sum;
 	private float avg;
+	
 	public String getNum() {
 		return num;
 	}
